@@ -1,5 +1,7 @@
 # Advena
 
+This app was created as part of our course project for CS 346 at the University of Waterloo. It was orignally hosted on GitLab, but I had the project files locally downloaded so I just decided to upload that here. 
+
 > ⚠️ **Note:** This project requires API keys to run some services and connect to a DB. Add your own API keys to `local.properties` and `app/src/main/java/com/example/advena/data/ApiKeys.kt` (use `ApiKeys.kt.template` as a reference).
 
 ## Description
