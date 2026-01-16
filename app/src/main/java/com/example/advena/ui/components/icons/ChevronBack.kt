@@ -1,0 +1,37 @@
+package com.example.advena.ui.components.icons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val ChevronBackward: ImageVector
+    get() {
+        if (_Chevron_backward != null) return _Chevron_backward!!
+
+        _Chevron_backward = ImageVector.Builder(
+            name = "Chevron_backward",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(560f, 720f)
+                lineTo(320f, 480f)
+                lineToRelative(240f, -240f)
+                lineToRelative(56f, 56f)
+                lineToRelative(-184f, 184f)
+                lineToRelative(184f, 184f)
+                close()
+            }
+        }.build()
+
+        return _Chevron_backward!!
+    }
+
+private var _Chevron_backward: ImageVector? = null
+

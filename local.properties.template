@@ -1,0 +1,10 @@
+## This file is a template for local.properties
+## Copy this file to local.properties and fill in your API keys
+## DO NOT commit local.properties to version control
+
+# Location of the SDK. This is only used by Gradle.
+sdk.dir=YOUR_ANDROID_SDK_PATH
+
+# API Keys for AndroidManifest (Google Maps) - Replace with your actual key
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+

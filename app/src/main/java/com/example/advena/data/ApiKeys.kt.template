@@ -1,0 +1,15 @@
+package com.example.advena.data
+
+/**
+ * API Keys configuration TEMPLATE.
+ * Copy this file to ApiKeys.kt and fill in your actual API keys.
+ * DO NOT commit ApiKeys.kt to version control.
+ *
+ * For Google Maps API key used in AndroidManifest.xml, see local.properties
+ */
+object ApiKeys {
+    const val GOOGLE_GEOCODING_API_KEY = "your_google_geocoding_api_key_here"
+    const val SUPABASE_URL = "your_supabase_url_here"
+    const val SUPABASE_ANON_KEY = "your_supabase_anon_key_here"
+}
+
